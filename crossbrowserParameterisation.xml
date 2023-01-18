@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test name="Test">
+        <parameter name="newUsername" value="lakshmi"></parameter>
+        <parameter name="newPassword" value="lakshmi"></parameter>
+        <classes>
+            <class name="testng.sampleSeleniumTestNG11Parameterisation">
+            </class>
+        </classes>
+    </test>
+
+<!--    <test name="Test">
+        <parameter name="username" value="lakshmi"></parameter>
+        <parameter name="password" value="lakshmi"></parameter>
+        <classes>
+            <class name="testng.sampleSeleniumTestNG11Parameterisation">
+            </class>
+        </classes>
+    </test>-->
+</suite>
